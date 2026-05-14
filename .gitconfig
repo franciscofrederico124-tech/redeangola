@@ -1,0 +1,9 @@
+[user]
+	name = franciscofrederico124-tech
+	email = franciscofrederico124@gmail.com
+[safe]
+	directory = /storage/emulated/0/trigger_Bot
+	directory = /storage/emulated/0/NCI_PROJETOS/PLATAFORMA_DE_EMPREGABILIDADE
+	directory = /storage/emulated/0/NCI_PROJETOS/PLATAFORMA_DE_EMPREGABILIDADE
+[credential]
+	helper = store

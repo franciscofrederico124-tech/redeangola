@@ -1,0 +1,16 @@
+'Log files:
+/data/data/com.termux/files/home/.npm/_logs/2026-05-10T18_10_01_795Z-debug-0.log
+
+# npm resolution error report
+
+While resolving: landing-page@0.0.0
+Found: vite@3.2.11
+node_modules/vite
+  vite@"^3.2.11" from the root project
+
+Could not resolve dependency:
+peer vite@"^8.0.0" from @vitejs/plugin-react@6.0.1
+node_modules/@vitejs/plugin-react
+  dev @vitejs/plugin-react@"^6.0.1" from the root project
+
+Fix the upstream dependency conflict, or retry this command with --force or --legacy-peer-deps to accept an incorrect (and potentially broken) dependency resolution.

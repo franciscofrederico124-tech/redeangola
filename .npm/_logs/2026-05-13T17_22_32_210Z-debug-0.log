@@ -1,0 +1,222 @@
+0 verbose cli /data/data/com.termux/files/usr/bin/node /data/data/com.termux/files/usr/bin/npm
+1 info using npm@11.13.0
+2 info using node@v24.14.1
+3 silly config load:file:/data/data/com.termux/files/usr/lib/node_modules/npm/npmrc
+4 silly config load:file:/data/data/com.termux/files/home/lemba-back/.npmrc
+5 silly config load:file:/data/data/com.termux/files/home/.npmrc
+6 silly config load:file:/data/data/com.termux/files/usr/etc/npmrc
+7 verbose title npm install better-sqnpm install better-sqlite3
+8 verbose argv "install" "better-sqnpm" "install" "better-sqlite3" "--build-from-source"
+9 verbose logfile logs-max:10 dir:/data/data/com.termux/files/home/.npm/_logs/2026-05-13T17_22_32_210Z-
+10 verbose logfile /data/data/com.termux/files/home/.npm/_logs/2026-05-13T17_22_32_210Z-debug-0.log
+11 warn Unknown cli config "--build-from-source". This will stop working in the next major version of npm.
+12 silly logfile start cleaning logs, removing 1 files
+13 silly logfile done cleaning log files
+14 silly packumentCache heap:533987328 maxSize:133496832 maxEntrySize:66748416
+15 verbose shrinkwrap failed to load node_modules/.package-lock.json out of date, updated: node_modules
+16 silly idealTree buildDeps
+17 silly fetch manifest better-sqnpm@*
+18 silly packumentCache full:https://registry.npmjs.org/better-sqnpm cache-miss
+19 http fetch GET 404 https://registry.npmjs.org/better-sqnpm 1229ms (cache skip)
+20 silly fetch manifest install@*
+21 silly packumentCache full:https://registry.npmjs.org/install cache-miss
+22 http fetch GET 200 https://registry.npmjs.org/install 5803ms (cache miss)
+23 silly packumentCache full:https://registry.npmjs.org/install set size:undefined disposed:false
+24 silly fetch manifest better-sqlite3@*
+25 silly packumentCache full:https://registry.npmjs.org/better-sqlite3 cache-miss
+26 http cache https://registry.npmjs.org/better-sqlite3 97ms (cache hit)
+27 silly packumentCache full:https://registry.npmjs.org/better-sqlite3 set size:377133 disposed:false
+28 silly placeDep ROOT better-sqlite3@12.10.0 OK for: lemba-back@1.0.0 want: *
+29 silly placeDep ROOT better-sqnpm@ OK for: lemba-back@1.0.0 want: *
+30 silly placeDep ROOT install@0.13.0 OK for: lemba-back@1.0.0 want: *
+31 silly fetch manifest bindings@^1.5.0
+32 silly packumentCache full:https://registry.npmjs.org/bindings cache-miss
+33 silly fetch manifest prebuild-install@^7.1.1
+34 silly packumentCache full:https://registry.npmjs.org/prebuild-install cache-miss
+35 http cache https://registry.npmjs.org/prebuild-install 48ms (cache hit)
+36 silly packumentCache full:https://registry.npmjs.org/prebuild-install set size:184615 disposed:false
+37 http cache https://registry.npmjs.org/bindings 83ms (cache hit)
+38 silly packumentCache full:https://registry.npmjs.org/bindings set size:31303 disposed:false
+39 silly placeDep ROOT bindings@1.5.0 OK for: better-sqlite3@12.10.0 want: ^1.5.0
+40 silly placeDep ROOT prebuild-install@7.1.3 OK for: better-sqlite3@12.10.0 want: ^7.1.1
+41 silly fetch manifest file-uri-to-path@1.0.0
+42 silly packumentCache full:https://registry.npmjs.org/file-uri-to-path cache-miss
+43 silly fetch manifest rc@^1.2.7
+44 silly packumentCache full:https://registry.npmjs.org/rc cache-miss
+45 silly fetch manifest pump@^3.0.0
+46 silly packumentCache full:https://registry.npmjs.org/pump cache-miss
+47 silly fetch manifest tar-fs@^2.0.0
+48 silly packumentCache full:https://registry.npmjs.org/tar-fs cache-miss
+49 silly fetch manifest minimist@^1.2.3
+50 silly packumentCache full:https://registry.npmjs.org/minimist cache-miss
+51 silly fetch manifest node-abi@^3.3.0
+52 silly packumentCache full:https://registry.npmjs.org/node-abi cache-miss
+53 silly fetch manifest simple-get@^4.0.0
+54 silly packumentCache full:https://registry.npmjs.org/simple-get cache-miss
+55 http cache https://registry.npmjs.org/file-uri-to-path 139ms (cache hit)
+56 silly packumentCache full:https://registry.npmjs.org/file-uri-to-path set size:10154 disposed:false
+57 silly fetch manifest detect-libc@^2.0.0
+58 silly packumentCache full:https://registry.npmjs.org/detect-libc cache-miss
+59 http cache https://registry.npmjs.org/pump 149ms (cache hit)
+60 silly packumentCache full:https://registry.npmjs.org/pump set size:41178 disposed:false
+61 silly fetch manifest tunnel-agent@^0.6.0
+62 silly packumentCache full:https://registry.npmjs.org/tunnel-agent cache-miss
+63 http cache https://registry.npmjs.org/rc 170ms (cache hit)
+64 silly packumentCache full:https://registry.npmjs.org/rc set size:70417 disposed:false
+65 silly fetch manifest mkdirp-classic@^0.5.3
+66 silly packumentCache full:https://registry.npmjs.org/mkdirp-classic cache-miss
+67 http cache https://registry.npmjs.org/minimist 177ms (cache hit)
+68 silly packumentCache full:https://registry.npmjs.org/minimist set size:77063 disposed:false
+69 silly fetch manifest expand-template@^2.0.3
+70 silly packumentCache full:https://registry.npmjs.org/expand-template cache-miss
+71 http cache https://registry.npmjs.org/tar-fs 204ms (cache hit)
+72 silly packumentCache full:https://registry.npmjs.org/tar-fs set size:122750 disposed:false
+73 silly fetch manifest napi-build-utils@^2.0.0
+74 silly packumentCache full:https://registry.npmjs.org/napi-build-utils cache-miss
+75 http cache https://registry.npmjs.org/node-abi 227ms (cache hit)
+76 silly packumentCache full:https://registry.npmjs.org/node-abi set size:373738 disposed:false
+77 silly fetch manifest github-from-package@0.0.0
+78 silly packumentCache full:https://registry.npmjs.org/github-from-package cache-miss
+79 http cache https://registry.npmjs.org/simple-get 290ms (cache hit)
+80 silly packumentCache full:https://registry.npmjs.org/simple-get set size:90014 disposed:false
+81 http cache https://registry.npmjs.org/napi-build-utils 168ms (cache hit)
+82 silly packumentCache full:https://registry.npmjs.org/napi-build-utils set size:13501 disposed:false
+83 http cache https://registry.npmjs.org/detect-libc 266ms (cache hit)
+84 silly packumentCache full:https://registry.npmjs.org/detect-libc set size:47861 disposed:false
+85 http cache https://registry.npmjs.org/github-from-package 118ms (cache hit)
+86 silly packumentCache full:https://registry.npmjs.org/github-from-package set size:3718 disposed:false
+87 http cache https://registry.npmjs.org/expand-template 224ms (cache hit)
+88 silly packumentCache full:https://registry.npmjs.org/expand-template set size:23203 disposed:false
+89 http cache https://registry.npmjs.org/mkdirp-classic 254ms (cache hit)
+90 silly packumentCache full:https://registry.npmjs.org/mkdirp-classic set size:5503 disposed:false
+91 http cache https://registry.npmjs.org/tunnel-agent 283ms (cache hit)
+92 silly packumentCache full:https://registry.npmjs.org/tunnel-agent set size:12847 disposed:false
+93 silly placeDep ROOT file-uri-to-path@1.0.0 OK for: bindings@1.5.0 want: 1.0.0
+94 silly placeDep ROOT detect-libc@2.1.2 OK for: prebuild-install@7.1.3 want: ^2.0.0
+95 silly placeDep ROOT expand-template@2.0.3 OK for: prebuild-install@7.1.3 want: ^2.0.3
+96 silly placeDep ROOT github-from-package@0.0.0 OK for: prebuild-install@7.1.3 want: 0.0.0
+97 silly placeDep ROOT minimist@1.2.8 OK for: prebuild-install@7.1.3 want: ^1.2.3
+98 silly placeDep ROOT mkdirp-classic@0.5.3 OK for: prebuild-install@7.1.3 want: ^0.5.3
+99 silly placeDep ROOT napi-build-utils@2.0.0 OK for: prebuild-install@7.1.3 want: ^2.0.0
+100 silly placeDep ROOT node-abi@3.92.0 OK for: prebuild-install@7.1.3 want: ^3.3.0
+101 silly placeDep ROOT pump@3.0.4 OK for: prebuild-install@7.1.3 want: ^3.0.0
+102 silly placeDep ROOT rc@1.2.8 OK for: prebuild-install@7.1.3 want: ^1.2.7
+103 silly placeDep ROOT simple-get@4.0.1 OK for: prebuild-install@7.1.3 want: ^4.0.0
+104 silly placeDep ROOT tar-fs@2.1.4 OK for: prebuild-install@7.1.3 want: ^2.0.0
+105 silly placeDep ROOT tunnel-agent@0.6.0 OK for: prebuild-install@7.1.3 want: ^0.6.0
+106 silly fetch manifest end-of-stream@^1.1.0
+107 silly packumentCache full:https://registry.npmjs.org/end-of-stream cache-miss
+108 silly fetch manifest ini@~1.3.0
+109 silly packumentCache full:https://registry.npmjs.org/ini cache-miss
+110 silly fetch manifest deep-extend@^0.6.0
+111 silly packumentCache full:https://registry.npmjs.org/deep-extend cache-miss
+112 silly fetch manifest strip-json-comments@~2.0.1
+113 silly packumentCache full:https://registry.npmjs.org/strip-json-comments cache-miss
+114 silly fetch manifest decompress-response@^6.0.0
+115 silly packumentCache full:https://registry.npmjs.org/decompress-response cache-miss
+116 silly fetch manifest simple-concat@^1.0.0
+117 silly packumentCache full:https://registry.npmjs.org/simple-concat cache-miss
+118 silly fetch manifest chownr@^1.1.1
+119 silly packumentCache full:https://registry.npmjs.org/chownr cache-miss
+120 http cache https://registry.npmjs.org/end-of-stream 91ms (cache hit)
+121 silly packumentCache full:https://registry.npmjs.org/end-of-stream set size:27842 disposed:false
+122 silly fetch manifest tar-stream@^2.1.4
+123 silly packumentCache full:https://registry.npmjs.org/tar-stream cache-miss
+124 http cache https://registry.npmjs.org/deep-extend 98ms (cache hit)
+125 silly packumentCache full:https://registry.npmjs.org/deep-extend set size:34472 disposed:false
+126 http cache https://registry.npmjs.org/strip-json-comments 107ms (cache hit)
+127 silly packumentCache full:https://registry.npmjs.org/strip-json-comments set size:43569 disposed:false
+128 http cache https://registry.npmjs.org/ini 127ms (cache hit)
+129 silly packumentCache full:https://registry.npmjs.org/ini set size:59180 disposed:false
+130 http cache https://registry.npmjs.org/decompress-response 130ms (cache hit)
+131 silly packumentCache full:https://registry.npmjs.org/decompress-response set size:36213 disposed:false
+132 http cache https://registry.npmjs.org/simple-concat 140ms (cache hit)
+133 silly packumentCache full:https://registry.npmjs.org/simple-concat set size:6304 disposed:false
+134 http cache https://registry.npmjs.org/chownr 147ms (cache hit)
+135 silly packumentCache full:https://registry.npmjs.org/chownr set size:22157 disposed:false
+136 http cache https://registry.npmjs.org/tar-stream 98ms (cache hit)
+137 silly packumentCache full:https://registry.npmjs.org/tar-stream set size:137875 disposed:false
+138 silly placeDep ROOT end-of-stream@1.4.5 OK for: pump@3.0.4 want: ^1.1.0
+139 silly placeDep ROOT deep-extend@0.6.0 OK for: rc@1.2.8 want: ^0.6.0
+140 silly placeDep ROOT ini@1.3.8 OK for: rc@1.2.8 want: ~1.3.0
+141 silly placeDep ROOT strip-json-comments@2.0.1 OK for: rc@1.2.8 want: ~2.0.1
+142 silly placeDep ROOT decompress-response@6.0.0 OK for: simple-get@4.0.1 want: ^6.0.0
+143 silly placeDep ROOT simple-concat@1.0.1 OK for: simple-get@4.0.1 want: ^1.0.0
+144 silly fetch manifest mimic-response@^3.1.0
+145 silly packumentCache full:https://registry.npmjs.org/mimic-response cache-miss
+146 http cache https://registry.npmjs.org/mimic-response 63ms (cache hit)
+147 silly packumentCache full:https://registry.npmjs.org/mimic-response set size:20174 disposed:false
+148 silly placeDep ROOT mimic-response@3.1.0 OK for: decompress-response@6.0.0 want: ^3.1.0
+149 silly placeDep ROOT chownr@1.1.4 OK for: tar-fs@2.1.4 want: ^1.1.1
+150 silly placeDep ROOT tar-stream@2.2.0 OK for: tar-fs@2.1.4 want: ^2.1.4
+151 silly fetch manifest bl@^4.0.3
+152 silly packumentCache full:https://registry.npmjs.org/bl cache-miss
+153 silly fetch manifest fs-constants@^1.0.0
+154 silly packumentCache full:https://registry.npmjs.org/fs-constants cache-miss
+155 silly fetch manifest readable-stream@^3.1.1
+156 silly packumentCache full:https://registry.npmjs.org/readable-stream cache-miss
+157 http cache https://registry.npmjs.org/fs-constants 45ms (cache hit)
+158 silly packumentCache full:https://registry.npmjs.org/fs-constants set size:3522 disposed:false
+159 http cache https://registry.npmjs.org/readable-stream 50ms (cache hit)
+160 silly packumentCache full:https://registry.npmjs.org/readable-stream set size:261096 disposed:false
+161 http cache https://registry.npmjs.org/bl 93ms (cache hit)
+162 silly packumentCache full:https://registry.npmjs.org/bl set size:199280 disposed:false
+163 silly placeDep ROOT bl@4.1.0 OK for: tar-stream@2.2.0 want: ^4.0.3
+164 silly placeDep ROOT fs-constants@1.0.0 OK for: tar-stream@2.2.0 want: ^1.0.0
+165 silly placeDep ROOT readable-stream@3.6.2 OK for: tar-stream@2.2.0 want: ^3.1.1
+166 silly fetch manifest buffer@^5.5.0
+167 silly packumentCache full:https://registry.npmjs.org/buffer cache-miss
+168 silly fetch manifest readable-stream@^3.4.0
+169 silly packumentCache full:https://registry.npmjs.org/readable-stream cache-hit
+170 silly fetch manifest string_decoder@^1.1.1
+171 silly packumentCache full:https://registry.npmjs.org/string_decoder cache-miss
+172 silly fetch manifest util-deprecate@^1.0.1
+173 silly packumentCache full:https://registry.npmjs.org/util-deprecate cache-miss
+174 http cache https://registry.npmjs.org/util-deprecate 41ms (cache hit)
+175 silly packumentCache full:https://registry.npmjs.org/util-deprecate set size:6674 disposed:false
+176 http cache https://registry.npmjs.org/string_decoder 57ms (cache hit)
+177 silly packumentCache full:https://registry.npmjs.org/string_decoder set size:28441 disposed:false
+178 http cache https://registry.npmjs.org/buffer 81ms (cache hit)
+179 silly packumentCache full:https://registry.npmjs.org/buffer set size:280480 disposed:false
+180 silly placeDep ROOT buffer@5.7.1 OK for: bl@4.1.0 want: ^5.5.0
+181 silly fetch manifest base64-js@^1.3.1
+182 silly packumentCache full:https://registry.npmjs.org/base64-js cache-miss
+183 silly fetch manifest ieee754@^1.1.13
+184 silly packumentCache full:https://registry.npmjs.org/ieee754 cache-miss
+185 http cache https://registry.npmjs.org/ieee754 32ms (cache hit)
+186 silly packumentCache full:https://registry.npmjs.org/ieee754 set size:34910 disposed:false
+187 http cache https://registry.npmjs.org/base64-js 49ms (cache hit)
+188 silly packumentCache full:https://registry.npmjs.org/base64-js set size:41270 disposed:false
+189 silly placeDep ROOT base64-js@1.5.1 OK for: buffer@5.7.1 want: ^1.3.1
+190 silly placeDep ROOT ieee754@1.2.1 OK for: buffer@5.7.1 want: ^1.1.13
+191 silly placeDep ROOT string_decoder@1.3.0 OK for: readable-stream@3.6.2 want: ^1.1.1
+192 silly placeDep ROOT util-deprecate@1.0.2 OK for: readable-stream@3.6.2 want: ^1.0.1
+193 verbose stack HttpErrorGeneral: 404 Not Found - GET https://registry.npmjs.org/better-sqnpm - Not found
+193 verbose stack     at /data/data/com.termux/files/usr/lib/node_modules/npm/node_modules/npm-registry-fetch/lib/check-response.js:103:15
+193 verbose stack     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+193 verbose stack     at async RegistryFetcher.packument (/data/data/com.termux/files/usr/lib/node_modules/npm/node_modules/pacote/lib/registry.js:90:19)
+193 verbose stack     at async RegistryFetcher.manifest (/data/data/com.termux/files/usr/lib/node_modules/npm/node_modules/pacote/lib/registry.js:128:23)
+193 verbose stack     at async #fetchManifest (/data/data/com.termux/files/usr/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/build-ideal-tree.js:1217:20)
+193 verbose stack     at async #nodeFromEdge (/data/data/com.termux/files/usr/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/build-ideal-tree.js:1054:19)
+193 verbose stack     at async #buildDepStep (/data/data/com.termux/files/usr/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/build-ideal-tree.js:917:11)
+193 verbose stack     at async Arborist.buildIdealTree (/data/data/com.termux/files/usr/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/build-ideal-tree.js:170:7)
+193 verbose stack     at async Promise.all (index 1)
+193 verbose stack     at async Arborist.reify (/data/data/com.termux/files/usr/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/reify.js:111:5)
+194 verbose statusCode 404
+195 verbose pkgid better-sqnpm@*
+196 error code E404
+197 error 404 Not Found - GET https://registry.npmjs.org/better-sqnpm - Not found
+198 error 404
+199 error 404  The requested resource 'better-sqnpm@*' could not be found or you do not have permission to access it.
+200 error 404
+201 error 404 Note that you can also install from a
+202 error 404 tarball, folder, http url, or git url.
+203 silly unfinished npm timer reify 1778692956258
+204 silly unfinished npm timer reify:loadTrees 1778692956280
+205 verbose cwd /data/data/com.termux/files/home/lemba-back
+206 verbose os Linux 5.15.178-android13-8-g6e4a9375250c-dirty
+207 verbose node v24.14.1
+208 verbose npm  v11.13.0
+209 verbose exit 1
+210 verbose code 1
+211 error A complete log of this run can be found in: /data/data/com.termux/files/home/.npm/_logs/2026-05-13T17_22_32_210Z-debug-0.log
